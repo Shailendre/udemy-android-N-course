@@ -39,10 +39,10 @@
         android:text="Convert"
         app:layout_constraintBottom_toTopOf="@+id/converterImageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintHorizontal_bias="0.382"
         app:layout_constraintStart_toEndOf="@+id/dollars"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.23" />
+        app:layout_constraintVertical_bias="0.324" />
 
     <EditText
         android:id="@+id/rupees"
@@ -55,7 +55,7 @@
         android:hint="Rupees..."
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dollars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
